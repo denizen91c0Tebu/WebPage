@@ -126,13 +126,17 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
 }
 
 .bluebody {
     background-color: #3882f6;
     border-radius: 4px;
-    padding: 20px 50px 20px 50px;
-    margin: 30px;
+    padding: 30px 80px 30px 80px;
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .call {
@@ -146,7 +150,10 @@ button {
 
 .bottombutton {
     border-color: #f9faf8;
+}
 
+.sign {
+    padding-left: 60px;
 }
 
 .footer {
